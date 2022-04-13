@@ -1,10 +1,10 @@
-/* VecDeque -> "double-ended queue implemented with a growable ring buffer"
- * --meaning, it has O(1) enqueue/dequeue time
+/*  VecDeque -> "double-ended queue implemented with a growable ring buffer" (doc.rust-lang.org)
+ *  --meaning, it has O(1) enqueue/dequeue time
  *
- * structs are like MATLAB structs -> type agnostic, easily accessible fields,
+ *  structs are like MATLAB structs -> type agnostic, easily accessible fields,
  *                                      and simple.
  *
- * like in Java, T is a generic type that allows us to reuse the same code block
+ *  like in Java, T is a generic type that allows us to reuse the same code block
  *  for different variable types. this is important since Queues should support
  *  all data types.
  *
